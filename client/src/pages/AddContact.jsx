@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
-import { addContact, updateContact } from "../store/slices/contacts";
+import { addContact, updateContact } from "../store/slices/contactsSlice";
 
 const AddContact = () => {
   const dispatch = useDispatch();

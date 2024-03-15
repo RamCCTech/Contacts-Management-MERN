@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { useSelector, useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { signOut } from "../../store/slices/userSlice";
-import { resetContacts } from "../../store/slices/contacts";
+import { resetContacts } from "../../store/slices/contactsSlice";
 
 const Navbar = ({ title, icon }) => {
   const dispatch = useDispatch();

@@ -3,7 +3,7 @@ import Navbar from "./components/layout/Navbar";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Home from "./pages/Home";
-import Auth from "./pages/Auth";
+import Auth from "./components/auth/Auth";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AddContact from "./pages/AddContact";
 

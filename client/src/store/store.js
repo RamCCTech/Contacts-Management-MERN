@@ -1,5 +1,5 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
-import contactReducer from "./slices/contacts";
+import contactReducer from "./slices/contactsSlice";
 import userReducer from "./slices/userSlice";
 
 import { persistReducer, persistStore } from "redux-persist";

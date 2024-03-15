@@ -6,8 +6,8 @@ import {
   signInStart,
   signInSuccess,
   signInFailure,
-} from "../store/slices/userSlice";
-import { fetchContacts } from "../store/slices/contacts";
+} from "../../store/slices/userSlice";
+import { fetchContacts } from "../../store/slices/contactsSlice";
 
 const Auth = ({ type }) => {
   const dispatch = useDispatch();
@@ -113,7 +113,7 @@ const Auth = ({ type }) => {
             <img
               src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
               className="img-fluid"
-              alt="Phone image"
+              alt="Phone"
             />
           </div>
           <div className="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
@@ -132,7 +132,7 @@ const Auth = ({ type }) => {
                   ? "Sign Up"
                   : "Forgot Password"}
               </h1>
-              {type == "signup" && (
+              {type === "signup" && (
                 <div className="form-outline mb-4">
                   <label className="form-label" htmlFor="form1">
                     Name
@@ -146,7 +146,7 @@ const Auth = ({ type }) => {
                   />
                 </div>
               )}
-              {type == "signup" && (
+              {type === "signup" && (
                 <div className="form-outline mb-4">
                   <label className="form-label" htmlFor="form1">
                     User Name
