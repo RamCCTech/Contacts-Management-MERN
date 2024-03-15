@@ -57,9 +57,6 @@
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - State Management: Redux
-- Authentication: JWT (JSON Web Tokens)
-
-**Architecture Diagram**: [Include a high-level architecture diagram of your project]
 
 ## Project Implementation
 
